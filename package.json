@@ -1,0 +1,24 @@
+{
+  "name": "@mariusz.sh/bluetooth-uuids",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://github.com/mszczepanczyk/bluetooth-uuids",
+  "repository": "https://github.com/mszczepanczyk/bluetooth-uuids.git",
+  "author": "Mariusz Szczepańczyk <m@mariusz.sh>",
+  "license": "publicDomain",
+  "type": "module",
+  "types": "index.d.ts",
+  "keywords": [
+    "bluetooth",
+    "uuid"
+  ],
+  "scripts": {
+    "lint": "npx eslint . --max-warnings 0",
+    "format": "npx eslint . --fix"
+  },
+  "devDependencies": {
+    "@mariusz.sh/eslint-config": "^3.0.3",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2"
+  }
+}
