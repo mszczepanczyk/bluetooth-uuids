@@ -5,9 +5,9 @@ A list of Bluetooth UUIDs I've found.
 ## Usage
 
 ```js
-import bluetoothUuids from "@mariusz.sh/bluetooth-uuids";
+import bluetoothUuids from '@mariusz.sh/bluetooth-uuids'; 
 
-// "Audio Source"
+// 'Audio Source'
 bluetoothUuids['0000110a-0000-1000-8000-00805f9b34fb']
 
 // 521
